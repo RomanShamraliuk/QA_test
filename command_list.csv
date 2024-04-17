@@ -1,0 +1,42 @@
+    1  git config --global user.name "Roman Shamraliuk"
+    2  git config --global user.email "202shamral@gmail.com"
+    3  git clone https://github.com/RomanShamraliuk/QA_test.git
+    4  cd Qa_test
+    5  touch text_ignore.txt
+    6  [200~nano .gitignore
+    7  nano .gitignore
+    8  git status
+    9  git add*
+   10  git add
+   11  git add.
+   12  git add .
+   13  commit
+   14  git add *
+   15  commit
+   16  git status
+   17  [200~git commit -m "Додано файл text_ignore.txt та внесено його до .gitignore"
+   18  git commit -m
+   19  git commit
+   20  touch main_test.txt
+   21  git add .
+   22  git commit -m
+   23  git commit -m "main_test.txt"
+   24  git commit -m "text_ignore.txt"
+   25  clear
+   26  git checkout -b develop
+   27  touch develop_test.txt
+   28  git add .
+   29  git commit -m "develop_test.txt
+
+git status
+   30  git status
+   31  git add .
+   32  git commit -m "develop_test.txt"
+   33  clear
+   34  git checkout main
+   35  git merge develop
+   36  git log
+   37  git merge
+   38  git log
+   39  clear
+   40  history > command_list.csv
